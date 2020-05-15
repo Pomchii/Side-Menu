@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--FONTS-->
+    <!--ICONS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--===========================================================================-->
+    <title>Tropus</title>
+</head>
+<body>
+    <!--SIDEBAR-->
+    <div class="navbar">
+        <ul class="lista-botoes">
+            <!--=====DASHBOARD-->
+            <li class="btn-dashboard btn-navbar">
+                <i class="large material-icons">insert_chart</i>
+                <a href="#" class="texto-dashboard texto-btn">Dashboard</a>
+            </li>
+            <!--=====CADASTRO-->
+            <li class="btn-navbar" id="btn-cadastro">
+                <i class="large material-icons icone-cadastro">assignment</i>
+                <a href="#" class="texto-cadastro">Cadastro</a>
+                <i id="cadastro-arrow-right" class="material-icons arrow-down">chevron_right</i>
+                <i id="cadastro-arrow-down" class="d material-icons arrow-down">expand_more</i>
+            </li>
+             <!--=====CADASTRO DROPDOWN-->
+            <div class="dropdown" id="cadastro-dropdown">
+                <ul class="dropdown-group">
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Cliente</a>
+                    </li>
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Carteira</a>
+                    </li>
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Colaboradores</a>
+                    </li>
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Fornecedor</a>
+                    </li>
+                </ul>
+            </div>
+             <!--=====SERVIÇOS-->
+            <li class="btn-navbar" id="btn-servico">
+                <i class="large material-icons">devices</i>
+                <a href="#" class="texto-servico">Serviços</a>
+                <i id="cadastro-arrow-right" class="material-icons arrow-down">chevron_right</i>
+                <i id="cadastro-arrow-down" class="d material-icons arrow-down">expand_more</i>
+            </li>
+            <!--=====SERVIÇOS DROPDOWN-->
+            <div class="dropdown" id="servicos-dropdown">
+                <ul class="dropdown-group">
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Agenda</a>
+                    </li>
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Chamados</a>
+                    </li>
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Projetos</a>
+                </ul>
+            </div>
+            <!--=====FINANCEIRO-->
+            <li class="btn-navbar" id="btn-financeiro">
+                <i class="large material-icons">account_balance_wallet</i>
+                <a href="#" class="texto-servico">Financeiro</a>
+                <i id="cadastro-arrow-right" class="material-icons arrow-down">chevron_right</i>
+                <i id="cadastro-arrow-down" class="d material-icons arrow-down">expand_more</i>
+            </li>
+            <!--=====FINANCEIROS DROPDOWN-->
+            <div class="dropdown" id="financeiro-dropdown">
+                <ul class="dropdown-group">
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Pagar</a>
+                    </li>
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Receber</a>
+                    </li>
+                    <li class="dropdown-btn">
+                    <a class="dropdown-texto" href="#">Boletos</a>
+                    </li>
+                </ul>
+            </div>
+            <!--=====RELATORIOS-->
+            <li class="btn-navbar" id="btn-relatorios">
+                <i class="large material-icons">description</i>
+                <a href="#" class="texto-servico">Relatórios</a>
+                <i id="cadastro-arrow-right" class="material-icons arrow-down">chevron_right</i>
+                <i id="cadastro-arrow-down" class="d material-icons arrow-down">expand_more</i>
+            </li>
+            <!--=====RELATORIOS DROPDOWN-->
+            <div class="dropdown" id="relatorios-dropdown">
+                <ul class="dropdown-group relatorios-dropdown-group">
+                    <!--RELATORIOS DROPDOWN (CADASTROS)-->
+                    <li class="dropdown-btn" id="relatorios-dropdown-cadastros">
+                        <a href="#" class="dropdown-texto relatorios-dropdown-texto">
+                            Cadastros
+                        </a>
+                        <i id="cadastro-arrow-right" class="material-icons arrow-down">chevron_right</i>
+                        <i id="cadastro-arrow-down" class="d material-icons arrow-down">expand_more</i>
+                    </li>
+                    <!--RELATORIOS DROPDOWN (CADASTROS){DROPDOWN}-->
+                    <div class="dropdown dropdown-relatorios" id="dropdown-relatorios-cadastros">
+                        <ul class="dropdown-group">
+                            <li class="dropdown-btn">
+                                <a class="dropdown-texto" href="#">Clientes</a>
+                            </li>
+                            <li class="dropdown-btn">
+                                <a class="dropdown-texto" href="#">Fornecedores</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--RELATORIOS DROPDOWN (FINANCEIRO)-->
+                    <li class="dropdown-btn" id="financeiro-dropdown-cadastros">
+                        <a href="#" class="dropdown-texto relatorios-dropdown-texto">
+                            Financeiro
+                        </a>
+                        <i id="cadastro-arrow-right" class="material-icons arrow-down">chevron_right</i>
+                        <i id="cadastro-arrow-down" class="d material-icons arrow-down">expand_more</i>
+                    </li>
+                    <!--RELATORIOS DROPDOWN (FINANCEIRO){DROPDOWN}-->
+                    <div class="dropdown dropdown-relatorios" id="dropdown-financeiro-cadastros">
+                        <ul class="dropdown-group">
+                            <li class="dropdown-btn">
+                                <a class="dropdown-texto" href="#">Pagar</a>
+                            </li>
+                            <li class="dropdown-btn">
+                                <a class="dropdown-texto" href="#">Receber</a>
+                            </li>
+                            <li class="dropdown-btn">
+                                <a class="dropdown-texto" href="#">Fluxo de caixa</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--RELATORIOS DROPDOWN (SERVIÇOS)-->
+                    <li class="dropdown-btn relatorios-dropdown-btn" id="servicos-dropdown-cadastros">
+                        <a href="#" class="dropdown-texto relatorios-dropdown-texto">
+                            Serviços
+                        </a>
+                        <i id="cadastro-arrow-right" class="material-icons arrow-down">chevron_right</i>
+                        <i id="cadastro-arrow-down" class="d material-icons arrow-down">expand_more</i>
+                    </li>
+                    <!--RELATORIOS DROPDOWN (SERVIÇOS) {DROPDWON}-->
+                    <div class="dropdown dropdown-relatorios" id="dropdown-servicos-cadastros">
+                        <ul class="dropdown-group">
+                            <li class="dropdown-btn">
+                                <a class="dropdown-texto" href="#">Chamados</a>
+                            </li>
+                            <li class="dropdown-btn">
+                                <a class="dropdown-texto" href="#">Projetos</a>
+                            </li>
+                            <li class="dropdown-btn">
+                                <a class="dropdown-texto" href="#">Backup</a>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+            <!--=====SEGURANÇA-->
+            <li class="btn-navbar" id="btn-seguranca">
+                <i class="large material-icons">vpn_key</i>
+                <a href="#" class="texto-dashboard">Segurança</a>
+                <i id="cadastro-arrow-right" class="material-icons arrow-down">chevron_right</i>
+                <i id="cadastro-arrow-down" class="d material-icons arrow-down">expand_more</i>
+            </li>
+            <!--=====SEGURANÇA DROPDOWN-->
+            <div class="dropdown" id="seguranca-dropdown">
+                <ul class="dropdown-group">
+                    <li class="dropdown-btn">
+                        <a class="dropdown-texto" href="#">Usuários</a>
+                    </li>
+                    <li class="dropdown-btn">
+                        <a class="dropdown-texto" href="#">Acesso</a>
+                    </li>
+                </ul>
+            </div>
+        </ul> 
+    </div>
+
+    <script src="js/extensoes/jQuery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@import './variables';
+@import './utilities';
+/*- ^==Imports==^ -*/
+
+
+@mixin navbar {
+    background: $marine;
+    width: 15em;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    font-family: $fontLato;
+}
+
+@mixin buttonColorHover {
+    background-color: $orange;
+    border-left: 5px solid white;
+}
+
+@mixin liButton {
+    transition: $hoverTime;
+    padding: 15px;
+    cursor: pointer;
+    @include flexH;//posicionamento
+    &:hover{
+        transition: $hoverTime;
+        @include buttonColorHover;
+        a{
+            color: $marine;
+            transition: $hoverTime;
+        }
+        .material-icons{
+            color: $marine;
+            transition: $hoverTime;
+        }
+    }
+}

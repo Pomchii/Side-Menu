@@ -1,0 +1,9 @@
+@import './variables';
+@import './utilities';
+/*- ^==Imports==^ -*/
+
+@mixin dropdownStyle {
+    background: $darkMarine;
+    @include flexV;
+    display: none;
+}

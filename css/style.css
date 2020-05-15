@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+/*Fonts*/
+/*Style*/
+/*- ^==Imports==^ -*/
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+/*Fonts*/
+/*Style*/
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+/*Fonts*/
+/*Style*/
+/*- ^==Imports==^ -*/
+/*- ^==Imports==^ -*/
+a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 19px;
+  margin-left: 10px;
+}
+
+.material-icons {
+  font-size: 30px;
+  color: #FFF;
+}
+
+.arrow-down {
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.navbar {
+  background: #010224;
+  width: 15em;
+  height: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar .btn-navbar {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 15px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .btn-navbar:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #F8B703;
+  border-left: 5px solid white;
+}
+
+.navbar .btn-navbar:hover a {
+  color: #010224;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navbar .btn-navbar:hover .material-icons {
+  color: #010224;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navbar .dropdown {
+  background: #1e1e26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+
+.navbar .dropdown .dropdown-btn {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 15px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .dropdown .dropdown-btn:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #F8B703;
+  border-left: 5px solid white;
+}
+
+.navbar .dropdown .dropdown-btn:hover a {
+  color: #010224;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navbar .dropdown .dropdown-btn:hover .material-icons {
+  color: #010224;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.d {
+  display: none;
+}
+
+#dropdown-relatorios-cadastros {
+  background: #313138;
+}
+
+#dropdown-financeiro-cadastros {
+  background: #313138;
+}
+
+#dropdown-servicos-cadastros {
+  background: #313138;
+}
+
+.list-style {
+  border-left: 5px solid white;
+  background-color: #F8B703;
+}
+
+.list-style a {
+  color: #010224;
+}
+
+.list-style .material-icons {
+  color: #010224;
+}
+
+.list-style #cadastro-arrow-down {
+  display: block;
+}
+
+.list-style #cadastro-arrow-right {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
